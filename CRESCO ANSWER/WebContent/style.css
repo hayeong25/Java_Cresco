@@ -1,0 +1,98 @@
+#wrap {}
+
+#head {}
+
+h1 {
+	margin: 0em;
+	border-left: 15px double #F8F8FF;	/* GhostWhite */
+	padding: 0.5em;
+	font-size: x-large;
+	color: #FFFFFF;						/* White */
+	background-color: #4682B4;			/* SteelBlue */
+}
+
+p {
+	font-size: medium:
+}
+
+dl {
+	margin-bottom: 10px;
+}
+dt {
+	border-left: 5px solid #4682B4;		/* SteelBlue */
+	padding-left: 5px;
+	margin-bottom: 5px;
+}
+dd {
+	margin-bottom: 0.5em;
+}
+
+.required {
+	background-color: #FF0000;			/* Red */
+	color: #fff;
+	font-size: 90%;
+	padding: 2px;
+	margin-left: 10px;
+}
+
+.error {
+	font-size: 90%;
+	color: #FF0000;						/* Red */
+}
+
+#lead {
+	line-height: 50%;
+	padding: 2px;
+}
+
+#content {
+	padding: 20px;
+}
+
+#foot{
+	text-align: right;
+	font-size: small;
+	background-color: #F8F8FF;			/* GhostWhite */
+}
+
+.msg {
+	clear: both;
+	margin-top: 10px;
+	border-top: 1px solid #C0C0C0;		/* Silver */
+	padding: 10px;
+}
+.msg img {
+	float: left;
+	margin-right: 5px;
+}
+.msg p {
+	margin: 0;
+}
+.msg .day,
+.msg .day a {
+	font-size: small;
+	color: #808080;						/* Gray */
+}
+
+.name,
+.name a{
+	color: #4682B4;						/* SteelBlue */
+}
+
+.nice,
+.nice a {
+	font-size: small;
+	color:#008000;
+}
+.nice img {
+	clear:left;
+}
+
+.paging {
+	margin-top: 10px;
+	text-align: center;
+}
+.paging li {
+	display: inline;
+	list-style: none;
+}

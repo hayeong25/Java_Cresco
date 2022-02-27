@@ -1,0 +1,17 @@
+package ch02.ex15;
+
+public class Ex15 {
+	public static void main(String[] args) {
+		int[] numbers = { 170, 165, 180, 145, 175 };
+		
+		int max = 0;
+		
+		for(int i = 0; i < numbers.length; i++) {
+			if(numbers[i] > max) {
+				max = numbers[i];
+			}
+		}
+		
+		System.out.println("最大値は" + max + "です。");
+	}
+}
